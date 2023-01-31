@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  color: black;
+}
+.navbar{
+  padding: 6px;
+  display: flex;
+  background-color: #150e0ab5;
+  align-items: center;
+
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: aquamarine;
+}
+.navbar .links{
+  margin-left: 400px;
+}
+.navbar a{
+  margin-left: 60px;
+  text-decoration: none;
+  padding: 10px;
+  color: #fdfafa;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.logo img{
+  width:110px;
+  margin-left: 50px;
+}
+.navbar a:hover{
+  background-color: rgb(238, 197, 86);
+  color: black;
+
+}
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
